@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F7237D3C8200CA84FF /* AppDelegate.swift */; };
+		39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F9237D3C8200CA84FF /* SceneDelegate.swift */; };
+		39A054FC237D3C8200CA84FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054FB237D3C8200CA84FF /* ViewController.swift */; };
+		39A054FF237D3C8200CA84FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A054FD237D3C8200CA84FF /* Main.storyboard */; };
+		39A05501237D3C8300CA84FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A05500237D3C8300CA84FF /* Assets.xcassets */; };
+		39A05504237D3C8300CA84FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A05502237D3C8300CA84FF /* LaunchScreen.storyboard */; };
+		39A0550F237D3C8300CA84FF /* PinstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0550E237D3C8300CA84FF /* PinstagramTests.swift */; };
+		39A0551A237D3C8300CA84FF /* PinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A05519237D3C8300CA84FF /* PinstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39A0550B237D3C8300CA84FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A054EC237D3C8200CA84FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A054F3237D3C8200CA84FF;
+			remoteInfo = Pinstagram;
+		};
+		39A05516237D3C8300CA84FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39A054EC237D3C8200CA84FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39A054F3237D3C8200CA84FF;
+			remoteInfo = Pinstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39A054F4237D3C8200CA84FF /* Pinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A054F7237D3C8200CA84FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39A054F9237D3C8200CA84FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39A054FB237D3C8200CA84FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39A054FE237D3C8200CA84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39A05500237D3C8300CA84FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39A05503237D3C8300CA84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39A05505237D3C8300CA84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A0550A237D3C8300CA84FF /* PinstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A0550E237D3C8300CA84FF /* PinstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinstagramTests.swift; sourceTree = "<group>"; };
+		39A05510237D3C8300CA84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A05515237D3C8300CA84FF /* PinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A05519237D3C8300CA84FF /* PinstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinstagramUITests.swift; sourceTree = "<group>"; };
+		39A0551B237D3C8300CA84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39A054F1237D3C8200CA84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05507237D3C8300CA84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05512237D3C8300CA84FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39A054EB237D3C8200CA84FF = {
+			isa = PBXGroup;
+			children = (
+				39A054F6237D3C8200CA84FF /* Pinstagram */,
+				39A0550D237D3C8300CA84FF /* PinstagramTests */,
+				39A05518237D3C8300CA84FF /* PinstagramUITests */,
+				39A054F5237D3C8200CA84FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39A054F5237D3C8200CA84FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A054F4237D3C8200CA84FF /* Pinstagram.app */,
+				39A0550A237D3C8300CA84FF /* PinstagramTests.xctest */,
+				39A05515237D3C8300CA84FF /* PinstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39A054F6237D3C8200CA84FF /* Pinstagram */ = {
+			isa = PBXGroup;
+			children = (
+				39A054F7237D3C8200CA84FF /* AppDelegate.swift */,
+				39A054F9237D3C8200CA84FF /* SceneDelegate.swift */,
+				39A054FB237D3C8200CA84FF /* ViewController.swift */,
+				39A054FD237D3C8200CA84FF /* Main.storyboard */,
+				39A05500237D3C8300CA84FF /* Assets.xcassets */,
+				39A05502237D3C8300CA84FF /* LaunchScreen.storyboard */,
+				39A05505237D3C8300CA84FF /* Info.plist */,
+			);
+			path = Pinstagram;
+			sourceTree = "<group>";
+		};
+		39A0550D237D3C8300CA84FF /* PinstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				39A0550E237D3C8300CA84FF /* PinstagramTests.swift */,
+				39A05510237D3C8300CA84FF /* Info.plist */,
+			);
+			path = PinstagramTests;
+			sourceTree = "<group>";
+		};
+		39A05518237D3C8300CA84FF /* PinstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39A05519237D3C8300CA84FF /* PinstagramUITests.swift */,
+				39A0551B237D3C8300CA84FF /* Info.plist */,
+			);
+			path = PinstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39A054F3237D3C8200CA84FF /* Pinstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A0551E237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "Pinstagram" */;
+			buildPhases = (
+				39A054F0237D3C8200CA84FF /* Sources */,
+				39A054F1237D3C8200CA84FF /* Frameworks */,
+				39A054F2237D3C8200CA84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinstagram;
+			productName = Pinstagram;
+			productReference = 39A054F4237D3C8200CA84FF /* Pinstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39A05509237D3C8300CA84FF /* PinstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A05521237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "PinstagramTests" */;
+			buildPhases = (
+				39A05506237D3C8300CA84FF /* Sources */,
+				39A05507237D3C8300CA84FF /* Frameworks */,
+				39A05508237D3C8300CA84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A0550C237D3C8300CA84FF /* PBXTargetDependency */,
+			);
+			name = PinstagramTests;
+			productName = PinstagramTests;
+			productReference = 39A0550A237D3C8300CA84FF /* PinstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39A05514237D3C8300CA84FF /* PinstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39A05524237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "PinstagramUITests" */;
+			buildPhases = (
+				39A05511237D3C8300CA84FF /* Sources */,
+				39A05512237D3C8300CA84FF /* Frameworks */,
+				39A05513237D3C8300CA84FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39A05517237D3C8300CA84FF /* PBXTargetDependency */,
+			);
+			name = PinstagramUITests;
+			productName = PinstagramUITests;
+			productReference = 39A05515237D3C8300CA84FF /* PinstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39A054EC237D3C8200CA84FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ryan Pinnock";
+				TargetAttributes = {
+					39A054F3237D3C8200CA84FF = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					39A05509237D3C8300CA84FF = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 39A054F3237D3C8200CA84FF;
+					};
+					39A05514237D3C8300CA84FF = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 39A054F3237D3C8200CA84FF;
+					};
+				};
+			};
+			buildConfigurationList = 39A054EF237D3C8200CA84FF /* Build configuration list for PBXProject "Pinstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39A054EB237D3C8200CA84FF;
+			productRefGroup = 39A054F5237D3C8200CA84FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39A054F3237D3C8200CA84FF /* Pinstagram */,
+				39A05509237D3C8300CA84FF /* PinstagramTests */,
+				39A05514237D3C8300CA84FF /* PinstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39A054F2237D3C8200CA84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A05504237D3C8300CA84FF /* LaunchScreen.storyboard in Resources */,
+				39A05501237D3C8300CA84FF /* Assets.xcassets in Resources */,
+				39A054FF237D3C8200CA84FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05508237D3C8300CA84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05513237D3C8300CA84FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39A054F0237D3C8200CA84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A054FC237D3C8200CA84FF /* ViewController.swift in Sources */,
+				39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */,
+				39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05506237D3C8300CA84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A0550F237D3C8300CA84FF /* PinstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39A05511237D3C8300CA84FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A0551A237D3C8300CA84FF /* PinstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39A0550C237D3C8300CA84FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A054F3237D3C8200CA84FF /* Pinstagram */;
+			targetProxy = 39A0550B237D3C8300CA84FF /* PBXContainerItemProxy */;
+		};
+		39A05517237D3C8300CA84FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39A054F3237D3C8200CA84FF /* Pinstagram */;
+			targetProxy = 39A05516237D3C8300CA84FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39A054FD237D3C8200CA84FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A054FE237D3C8200CA84FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39A05502237D3C8300CA84FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39A05503237D3C8300CA84FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39A0551C237D3C8300CA84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39A0551D237D3C8300CA84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A0551F237D3C8300CA84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = Pinstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.Pinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39A05520237D3C8300CA84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = Pinstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.Pinstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39A05522237D3C8300CA84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = PinstagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.PinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinstagram.app/Pinstagram";
+			};
+			name = Debug;
+		};
+		39A05523237D3C8300CA84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = PinstagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.PinstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinstagram.app/Pinstagram";
+			};
+			name = Release;
+		};
+		39A05525237D3C8300CA84FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = PinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.PinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pinstagram;
+			};
+			name = Debug;
+		};
+		39A05526237D3C8300CA84FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N33T7QM5G;
+				INFOPLIST_FILE = PinstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanpinnock.PinstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pinstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39A054EF237D3C8200CA84FF /* Build configuration list for PBXProject "Pinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A0551C237D3C8300CA84FF /* Debug */,
+				39A0551D237D3C8300CA84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A0551E237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "Pinstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A0551F237D3C8300CA84FF /* Debug */,
+				39A05520237D3C8300CA84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A05521237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "PinstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A05522237D3C8300CA84FF /* Debug */,
+				39A05523237D3C8300CA84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39A05524237D3C8300CA84FF /* Build configuration list for PBXNativeTarget "PinstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39A05525237D3C8300CA84FF /* Debug */,
+				39A05526237D3C8300CA84FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39A054EC237D3C8200CA84FF /* Project object */;
+}
