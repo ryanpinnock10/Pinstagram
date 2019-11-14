@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391D29E8237DC82A0036E4E6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D29E7237DC82A0036E4E6 /* CameraViewController.swift */; };
 		39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F7237D3C8200CA84FF /* AppDelegate.swift */; };
 		39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F9237D3C8200CA84FF /* SceneDelegate.swift */; };
 		39A054FF237D3C8200CA84FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A054FD237D3C8200CA84FF /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		09E8C85EB81C6F438A4AA664 /* Pods_Pinstagram_PinstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinstagram_PinstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCCA70A804FB55808743795 /* Pods-Pinstagram-PinstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinstagram-PinstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pinstagram-PinstagramUITests/Pods-Pinstagram-PinstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		240FDF88FDE6E181BA955804 /* Pods_PinstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PinstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		391D29E7237DC82A0036E4E6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		39A054F4237D3C8200CA84FF /* Pinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A054F7237D3C8200CA84FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39A054F9237D3C8200CA84FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				39A05505237D3C8300CA84FF /* Info.plist */,
 				39A05527237D3FA000CA84FF /* LoginViewController.swift */,
 				39A05529237D3FB000CA84FF /* FeedViewController.swift */,
+				391D29E7237DC82A0036E4E6 /* CameraViewController.swift */,
 			);
 			path = Pinstagram;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A05528237D3FA000CA84FF /* LoginViewController.swift in Sources */,
+				391D29E8237DC82A0036E4E6 /* CameraViewController.swift in Sources */,
 				39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */,
 				39A0552A237D3FB000CA84FF /* FeedViewController.swift in Sources */,
 				39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */,
