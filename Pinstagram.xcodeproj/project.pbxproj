@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F7237D3C8200CA84FF /* AppDelegate.swift */; };
 		39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054F9237D3C8200CA84FF /* SceneDelegate.swift */; };
-		39A054FC237D3C8200CA84FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A054FB237D3C8200CA84FF /* ViewController.swift */; };
 		39A054FF237D3C8200CA84FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A054FD237D3C8200CA84FF /* Main.storyboard */; };
 		39A05501237D3C8300CA84FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A05500237D3C8300CA84FF /* Assets.xcassets */; };
 		39A05504237D3C8300CA84FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A05502237D3C8300CA84FF /* LaunchScreen.storyboard */; };
 		39A0550F237D3C8300CA84FF /* PinstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A0550E237D3C8300CA84FF /* PinstagramTests.swift */; };
 		39A0551A237D3C8300CA84FF /* PinstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A05519237D3C8300CA84FF /* PinstagramUITests.swift */; };
+		39A05528237D3FA000CA84FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A05527237D3FA000CA84FF /* LoginViewController.swift */; };
+		39A0552A237D3FB000CA84FF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A05529237D3FB000CA84FF /* FeedViewController.swift */; };
 		44B7B45C022FC24A2A9209E0 /* Pods_Pinstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFA3F1777CB551BF69B6708 /* Pods_Pinstagram.framework */; };
 		94EBED40D3B96A58B3AD6AD2 /* Pods_Pinstagram_PinstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E8C85EB81C6F438A4AA664 /* Pods_Pinstagram_PinstagramUITests.framework */; };
 		A8348FB39CA0FC40A4761906 /* Pods_PinstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240FDF88FDE6E181BA955804 /* Pods_PinstagramTests.framework */; };
@@ -44,7 +45,6 @@
 		39A054F4237D3C8200CA84FF /* Pinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A054F7237D3C8200CA84FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39A054F9237D3C8200CA84FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39A054FB237D3C8200CA84FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39A054FE237D3C8200CA84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A05500237D3C8300CA84FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A05503237D3C8300CA84FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +55,8 @@
 		39A05515237D3C8300CA84FF /* PinstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39A05519237D3C8300CA84FF /* PinstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinstagramUITests.swift; sourceTree = "<group>"; };
 		39A0551B237D3C8300CA84FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A05527237D3FA000CA84FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		39A05529237D3FB000CA84FF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		5DFA3F1777CB551BF69B6708 /* Pods_Pinstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pinstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CD6E44A95C526305CD131D /* Pods-PinstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PinstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-PinstagramTests/Pods-PinstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		83BD0982890096D9A028B147 /* Pods-Pinstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinstagram.release.xcconfig"; path = "Target Support Files/Pods-Pinstagram/Pods-Pinstagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,11 +130,12 @@
 			children = (
 				39A054F7237D3C8200CA84FF /* AppDelegate.swift */,
 				39A054F9237D3C8200CA84FF /* SceneDelegate.swift */,
-				39A054FB237D3C8200CA84FF /* ViewController.swift */,
 				39A054FD237D3C8200CA84FF /* Main.storyboard */,
 				39A05500237D3C8300CA84FF /* Assets.xcassets */,
 				39A05502237D3C8300CA84FF /* LaunchScreen.storyboard */,
 				39A05505237D3C8300CA84FF /* Info.plist */,
+				39A05527237D3FA000CA84FF /* LoginViewController.swift */,
+				39A05529237D3FB000CA84FF /* FeedViewController.swift */,
 			);
 			path = Pinstagram;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				64CD6E44A95C526305CD131D /* Pods-PinstagramTests.debug.xcconfig */,
 				CF63DB8DDC02734F065290B6 /* Pods-PinstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A054FC237D3C8200CA84FF /* ViewController.swift in Sources */,
+				39A05528237D3FA000CA84FF /* LoginViewController.swift in Sources */,
 				39A054F8237D3C8200CA84FF /* AppDelegate.swift in Sources */,
+				39A0552A237D3FB000CA84FF /* FeedViewController.swift in Sources */,
 				39A054FA237D3C8200CA84FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
