@@ -41,7 +41,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         refreshControl = UIRefreshControl()
         refreshControl.addTarget(self, action: #selector(onRefresh), for: .valueChanged)
-        tableView.insertSubview(refreshControl, at: 0)
+        tableView.insertSubview(refreshControl, at: 20)
         // Do any additional setup after loading the view.
     }
     
